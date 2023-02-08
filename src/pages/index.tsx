@@ -26,6 +26,11 @@ const Home: NextPage<{ liff: Liff | null; liffError: string | null }> = ({ liff,
         <a href='https://developers.line.biz/ja/docs/liff/' target='_blank' rel='noreferrer'>
           LIFF Documentation
         </a>
+        <h2>LIFF sandwich test</h2>
+        <ul>
+          <li><a href='line://app/test-liffsandwich/normal?target_uri=https%3A%2F%2Fliff.line.me%2F1656508316-k7jNojXm'>Normal</a></li>
+          <li><a href='line://app/test-liffsandwich/whitelisted?target_uri=https%3A%2F%2Fliff.line.me%2F1656508316-k7jNojXm'>Whitelisted</a></li>
+        </ul>
       </main>
     </div>
   )
